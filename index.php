@@ -110,8 +110,8 @@ require_once __DIR__ . '/php-oop-2/Users/ClientVip.php';
                 </div>
                 <h3>TRACKSUITS</h3>
                 <div class="row">
-                    <!-- CLOTHINGS -->
-                    <?php // Itero per ottenere prodotti Clothings
+                    <!-- TRACKSUITS -->
+                    <?php // Itero per ottenere prodotti Tracksuits
                     foreach ($tracksuits as $tracksuit) {?>
                     <div class="cards">
                     <img src="<?php echo $tracksuit->img?>" alt="">
